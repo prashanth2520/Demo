@@ -17,7 +17,7 @@ jobs:
         host: ${{ secrets.SSH_HOST }}
         username: ${{ secrets.SSH_USER }}
         key: ${{ secrets.SSH_KEY }}
-        run: 
+        script: | 
              npm install
              npm run build
         
